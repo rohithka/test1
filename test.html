@@ -3,64 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
-    <title>task1</title>
-    <link rel="stylesheet" href="task1.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css" type="text/css">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="main">
-            <div class="navbar">
-                <div class="navbar2">
-                    <img src="images/logo.png" alt="logo" >
-                 </div>
-                <div class="navbar1">
-                    <a href="#" class="right">Contact us</a>
-                    <a href="#" class="right">Gallery</a>
-                    <a href="#" class="right">Aboout us</a>
-                    <a href="#" class="right">Home</a>
-                </div>
-            </div>
-                
-       </div>
-
-        <div>
-            <img src="images/banner.png" alt="" class="pic" >
-
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" width="150px">
         </div>
-
-        <div class="about">
-            <div class="about1">
-                <img src="images/abt-us.png" alt="" height="400px">
-            </div>
-                <div class="about2">
-                    <h3>About Treva</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br><br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-                    <div class="button">
-                        <button class="button1">Know more</button>
-                    </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pic">
+            <img src="images/banner.png" alt="banner" >
         </div>
-
-        <div class="packages">
-
+    </main>
+    <banner>
+        <div class="content_left">
+            <img src="images/abt-us.png" alt="about" class="about" width="500px">
         </div>
-
+        <div class="content-right">
+            <h3>About Treva</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tenetur doloribus atque optio nisi ipsa ut ullam quam animi quos quasi beatae natus, voluptates labore ad, autem in fugiat suscipit!</p>
+            <button class="btn">Know more</button>
+        </div>
+    </banner><br><br><br>
+    <!-- <package>
+        <div class="left">
+            <img src="images/prdt-1.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure sunt in pariatur praesentium. Praesentium, vel dolores. Ipsum voluptatibus voluptate quae. Officia distinctio soluta doloremque exercitationem molestiae rem,</p>
+        </div>
+        <div class="right">
+            <img src="images/prdt-2.png" alt="">
+        </div>
+        <div class="center">
+            <img src="images/prdt-3.png" alt="">
+        </div>
+    </package> -->
+    <h2 style="text-align: center;">Our Packages</h2>
+    <package>
+        
+        <div class="box">
+            <img src="images/prdt-1.png" alt="" class="pac"><br>
+            <h2 class="text">Switzserland</h2>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, beatae praesentium blanditiis quasi, amet, nesciunt quaerat aliquam in nobis suscipit dolorem voluptas perferendis nam dolor distinctio debitis illo magni id! Maiores molestiae quod optio enim?</p>
+            <button class="btn1">Know more</button>
+        </div>
+        <div class="box">
+            <img src="images/prdt-2.png" alt="" class="pac"><br>
+            <h2 class="text">Austraila</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ipsum. Quasi iusto quidem reprehenderit architecto temporibus blanditiis voluptatum quaerat hic quae cumque, amet placeat odio necessitatibus ipsum nulla</p>
+            <button class="btn1">Know more</button>
+        </div>
+        <div class="box">
+            <img src="images/prdt-3.png" alt="" class="pac"><br>
+            <h2 class="text">London</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde quibusdam nemo libero eos? Illum, odio. Esse quis repellendus culpa voluptates rem autem cupiditate exercitationem, illo quos iusto ex minima pariatur eius tempore ab consequuntur.</p>
+        
+            <button class="btn1">Know more</button></div>
+    </package><br><br><br>
+    <newsletter>
         <div class="newsletter">
+            <h2>Subscribe to Newsletter</h2>
+            <input type="text" placeholder="Enter your email address" class="email">
+            <button class="btn2">Know more</button>
 
         </div>
-
-        <div class="footer">
-
+    </newsletter>
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="soical-items"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="soical-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="soical-items"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"><a href="#">Info</a></li>
+                    <li class="quick-items"><a href="#">Suport</a></li>
+                    <li class="quick-items"><a href="#">Marketing</a></li>
+                    <li class="quick-items"><a href="#">terms ofuse</a></li>
+                    <li class="quick-items"><a href="#">Privacy Policy</a></li>
+                    <!-- <li class="quick-items"><a href="#">Info</a></li> -->
+                </ul>
+            </div>
+            <div class="outer-footer">
+                Copyright &copy; 2018 clarity money
+            </div>
         </div>
+    </footer>
 
-    </div>
-
-
-
-
-
-
-
-
+    
 </body>
 </html>

@@ -1,92 +1,233 @@
-.navbar{
-    width: 100%;
-    height: 75px;
-    background-color: rgb(255, 255, 255);
-    padding-left: 200px;
-    padding-top: 30px;
-    padding-right: 200px;
-    
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
 }
-.navbar1{
-    width:80%;
-    height: 0px;
-    background-color: rgb(255, 255, 255);
-    margin-right: 40px;
+body{
+    font-family: sans-serif;
 }
-.navbar2{
-    width:80%;
-    height: 15px;
-    background-color: rgb(255, 255, 255);
-    margin-right: 50px;
+header{
+    height: 100px;
+    /* background: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.right{
-    float: right;
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+ul li a{
+    padding: 0 20px;
     text-decoration: none;
     color: black;
-    
-    padding: 1px 20px;
-    margin-top: 0%;
-    width: 6%;
-    height: 0%;
-    background-color: rgb(255, 255, 255);
+    display: inline-block;
 }
-
-.pic{
-    max-width: 200%;
-    height: auto;
-    object-fit: cover;
+banner{
+    display: flex;
+    height: calc(100 vh - 100px);
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-left: 100px;
 }
-.main{
-    width: 100%;
-    height: auto;
-}
-.about{
-    width: 100%;
+about{
+    max-width: 300px;
     height: 300px;
-    padding: 105px 200px;
-    background-color: rgb(255, 255, 255);
+    
+    margin-top: 100%;
 }
-.about1{
-    background-color: rgb(255, 255, 255);
-    float: left;
-    padding-right: 0px 0px;
-    margin-right: 10%;
+
+.content-right{
+    margin-top: 10px;
     width: 50%;
-    height: 50px;
 }
-.about2{
-    background-color: rgb(255, 255, 255);
-    float: right;
-    padding-right: 10px 0px;
-    margin-right: 32%;
-    width: 40%;
-    height: 50px;
-    font-family: 'Courier New', Courier, monospace;
+.content-left{
+    padding-left: 10%;
 }
-.button{
-    background-color:rgb(252, 252, 252);
-    margin-top: 22%;
-    margin-left: 33%;
+banner h3{
+    font-size: 45px;
+    color: black;
+    /* text-transform: uppercase; */
+
+}
+banner p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 30px 0;
+
+}
+.btn{
+    padding: 15px 30px;
+    background: aqua;
+    color: black;
    
-}
-.button1{
     border-radius: 12px;
-    background-color:aqua;
-    color: white;
-    padding: 10px 24px;
-    font-size: large;
 }
+
+/* package{
+    padding-top: 10%;
+    display: flex;
+
+}
+package p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 30px 0;
+
+}
+.left{
+    width: ;
+    display: flex;
+}
+ */
+package{
+    font-family: sans-serif;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover{
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.box{
+    margin: 15px;
+    width: 315px;
+    height: 455px;
+    box-shadow: -1px 0 10px #000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 150px; */
+    text-align: justify;
     
+}
+.text{
+    margin: 10px;
     
+}
+.pac{
+    width: 300px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+.btn1{
+    padding: 15px 15px;
+    padding-top: 10px;
+    margin-top: 3%;
+    background: rgb(84, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+   
+    border-radius: 12px;
+}
+.newsletter{
+    width: 100%;
+    height: 230px;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+
+}
+.newsletter h2{
+    text-align: center;
+    padding-top: 3%;
 
 
-/* 
-.navbar{
-    color: rgb(0, 0, 0);
-    float: right;
-    width: 1%;
-    height: 1%;
-    padding-right: 550px;
-    background-color: blue;
-    text-decoration: none;
-} */
+}
+.email{
+    width: 25%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-left:40%;
+    margin-top: 30px;
+
+}
+.btn2{
+    padding: 10px 5px;
+    margin-top: 1%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    width: 10%;
+    border-radius: 12px;
+    
+}
+.pic{
+    width: 100%;
+
+}
+.pic img{
+    width: 100%;
+}
+
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: aliceblue;
+}
+.social-links {
+    display: flex;
+    color: #fff;
+}
+.social-links ul{
+    display: flex;
+    color: #fff;
+}
+.social-items{
+    list-style: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.quick-links {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.quick-links ul a{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outer-footer{
+    padding-top: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
